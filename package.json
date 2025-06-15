@@ -1,0 +1,35 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "A web crawler written in JavaScript",
+  "keywords": [
+    "web-crawler",
+    "scraping",
+    "javascript",
+    "nodejs"
+  ],
+  "license": "MIT",
+  "author": "Tobias DeVille",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "commander": "^11.1.0",
+    "p-limit": "^4.0.0",
+    "robots-parser": "^3.0.1",
+    "url-parse": "^1.5.10",
+    "winston": "^3.11.0",
+    "fs-extra": "^11.1.1",
+    "csv-writer": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "jest": "^29.7.0"
+  }
+}
